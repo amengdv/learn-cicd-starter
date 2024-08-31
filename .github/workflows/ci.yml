@@ -24,7 +24,7 @@ jobs:
       - name: Force Failure
         run: go test ./... -cover
 
-        name: Check gosec
+      - name: Check gosec
         run: gosec ./...
 
   style:
